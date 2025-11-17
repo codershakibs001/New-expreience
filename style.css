@@ -1,5 +1,27 @@
-h1{
+
+/* CSS ELEMENTOR SELECTOR */
+p{
+    color: green;
+    font-size: 70px;
+}
+
+
+/* CSS CLASSES SELECTOR */
+
+.first-color{
     color: blue;
+}
+
+.second-color{
+    color: yellow;
+}
+
+.three-color{
+    color: rgb(128, 15, 0);
+}
+
+.fourth-color{
+    color: orange
 }
 
 code{
@@ -7,7 +29,15 @@ code{
     font-size: 40px;
 }
 
-p{
-    color: green;
+/* CSS ID SELECTOR */
+
+#unique{
+    color: purple;
     font-size: 70px;
+}
+
+/* CSS GROUPING SELECTOR */
+
+i,b,h3{
+    color: brown;
 }
